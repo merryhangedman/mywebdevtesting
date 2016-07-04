@@ -1,0 +1,18 @@
+img {
+    border: none;
+}
+
+p {
+    font-family: Arial;
+    font-size: .75em;
+    color: darkblue;
+}
+
+a:visited, a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
