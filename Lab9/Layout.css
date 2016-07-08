@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: slategray;
+    font-family: Georgia, Times;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#navbar a:hover{
+    background-color: cornflowerblue;
+}
+
+li {
+    display: inline;
+    width: 100px;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+#header h1{
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin: 0px;
+}
+
+#navbar{
+    background-color: midnightblue;
+
+}
+
+#sidebar{
+    float: left;
+    width: 280px;
+    height: 1900;
+    background-color: gainsboro;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#sidebar h2{
+    margin-top: 0px;
+    padding-top: 15px;
+
+}
+
+#main {
+    background-color: antiquewhite;
+    float: right;
+    height: 1900px;
+    width: 660px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#main h2 {
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+}
